@@ -7,6 +7,8 @@
 
 * golf_system_2:  introducing TF-IDF cosine similarits (tweet VS vclaim_content, tweet VS vclaim_title) and BM25 scores (tweet VS vclaim_content, tweet VS vclaim_title) as features, Logistic Regression as model
 
+* golf_system_3:  introducing TF-IDF cosine similarits (tweet VS vclaim_content, tweet VS vclaim_title) and BM25 scores (tweet VS vclaim_content, tweet VS vclaim_title) as features, Linear Regression as model
+
 ## Result
  BaseLine:  
 | metric | @depth | score |
@@ -74,3 +76,5 @@
 |reciprocal_rank|     20 | 0.614|
 |reciprocal_rank|    all | 0.614|
  
+System 3:
+map@5  0.586
